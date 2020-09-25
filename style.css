@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+	text-align:center;
+	background-color:#2e6959;
+}
+
+.box{
+	text-align:left;
+	width:auto;
+	height:auto;
+	padding-top: 200px;;
+}
+
+#app {
+	display: none; padding-top: 200px;
+}
+
+canvas {
+	border:5px solid white;
+  background-color:white;
+}
+
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:170%;
+	color:#fff;
+	font-style:italic;
+	text-decoration:none;
+	font-weight:100;
+	padding: 10px;
+}
+
+.box h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:100%;
+	font-style:bold;
+	text-decoration:none;
+	font-weight:100;
+	padding: 10px;
+	display: none;
+}
+
+canvas{
+	position:relative;
+}
+
+.btnPlay button {
+	padding-bottom: 20px;
+}
+
+.player {
+	display: none;
+}
+
+input {
+	width: 30%;
+	padding: 15px;
+	border: 1px solid red;
+	text-align: center;
+	font-size: medium;
+	border-radius: 10px; 
+}
+
+button {
+	border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	background-color: white; 
+  color: black; 
+  border: 2px solid #032f63e7;
+}
+
+button:hover {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 20%;
+}
+

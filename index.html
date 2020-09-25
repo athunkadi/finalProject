@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>		
+		<script src="index.js"></script>
+	</head>
+	<body>
+    <div id="inputPlayer" style="display: block;">
+      <h1>Game Tic - Tac - Toe</h1>
+      <input type="text" id="xPlayer" placeholder="Masukkan Nama X-Player"> <br> <br>
+      <input type="text" id="oPlayer" placeholder="Masukkan Nama O-Player"> <br> <br>
+      <button onclick="addPlayer('xPlayer', 'oPlayer', 'app')" id="play">Play</button>
+    </div>
+		<div id="app">
+      <div id="box">
+        <canvas id = "canvas1" width="50" height="50" onclick="canvasClicked(1)"></canvas>
+        <canvas id = "canvas2" width="50" height="50" onclick="canvasClicked(2)"></canvas>
+        <canvas id = "canvas3" width="50" height="50" onclick="canvasClicked(3)"></canvas><br/>
+        <canvas id = "canvas4" width="50" height="50" onclick="canvasClicked(4)"></canvas>
+        <canvas id = "canvas5" width="50" height="50" onclick="canvasClicked(5)"></canvas>
+        <canvas id = "canvas6" width="50" height="50" onclick="canvasClicked(6)"></canvas><br/>
+        <canvas id = "canvas7" width="50" height="50" onclick="canvasClicked(7)"></canvas>
+        <canvas id = "canvas8" width="50" height="50" onclick="canvasClicked(8)"></canvas>
+        <canvas id = "canvas9" width="50" height="50" onclick="canvasClicked(9)"></canvas>
+
+        <h2 id="xPlay" style="color: darkkhaki; display: block;">X play - </h2>
+        <h2 id="oPlay" style="color: darkkhaki; display: none;">O play - </h2>
+      </div>
+		</div>		
+	</body>
+</html>
